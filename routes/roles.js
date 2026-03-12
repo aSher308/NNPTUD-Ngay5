@@ -137,7 +137,6 @@ router.delete('/:id', async (req, res) => {
     }
 });
 
-// ==================== SPECIAL ENDPOINT ====================
 
 // 6. GET all users với role cụ thể
 router.get('/:id/users', async (req, res) => {

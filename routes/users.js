@@ -157,8 +157,6 @@ router.delete('/:id', async (req, res) => {
     }
 });
 
-// ==================== SPECIAL ENDPOINTS ====================
-
 // 6. POST /enable - Enable user (set status = true)
 router.post('/enable', async (req, res) => {
     try {
